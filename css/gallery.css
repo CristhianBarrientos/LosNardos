@@ -1,0 +1,135 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7da; /* Fondo claro armonioso */
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(50, 205, 50, 0.8); /* Fondo semitransparente verde lima */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+.name-product{
+    font-size: 25px;
+}
+nav a {
+    color: #575656;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s; /* Transición de color suave */
+}
+
+nav a:hover {
+    color: #28a745; /* Color cambiado al pasar el cursor */
+}
+
+header {
+    background-color: #32CD32; /* Color verde lima */
+    color: rgb(51, 77, 56);
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-view {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery-view h2 {
+    color: #32CD32;
+    margin-bottom: 20px;
+}
+
+.gallery-view img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border: 5px solid #fff; /* Borde blanco para resaltar las imágenes */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad a las imágenes */
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.hidden-footer {
+    transform: translateY(100%);
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.floating-button:hover {
+    background-color: #28a745;
+}
+
+.text-panel {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.text-panel p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.about-section, .mision-section, .vision-section {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.about-section h2, .mision-section h2, .vision-section h2 {
+    color: #32CD32;
+    margin-bottom: 20px;
+}
+
+.about-section p, .mision-section p, .vision-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container-logo h1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
